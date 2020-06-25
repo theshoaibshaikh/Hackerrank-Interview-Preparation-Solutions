@@ -13,7 +13,7 @@ sortedInsert has two parameters:
 1. head: A reference to the head of a doubly-linked list of DoublyLinkedListNode objects.
 2. data: An integer denoting the value of the **data** field for the DoublyLinkedListNode you must insert into the list.
 
-### Solution:
+### Solution
 
 ```python
 
