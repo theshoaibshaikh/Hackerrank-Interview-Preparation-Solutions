@@ -5,6 +5,27 @@
 
 ### Solution:
 
+* ***python***
+```python
+def superReducedString(s):
+    sl = []
+ 
+    for c in s:
+        if sl==[]:
+            sl.append(c)
+        else:
+            if sl[-1] == c:
+                sl.pop()
+            else:
+                sl.append(c)
+                
+    if len(sl)==0:
+        return "Empty String"
+    else:
+        return ''.join(sl)
+```
+
+* ***java***
 ```java
 static String superReducedString(String s) {
         StringBuilder sb=new StringBuilder(s);
